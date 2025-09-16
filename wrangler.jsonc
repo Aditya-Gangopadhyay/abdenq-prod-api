@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "abdenq-prod-api",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "abdenq-prod-db",
+      "database_id": "252c42ef-e7a4-4a84-870f-481bd5427c4c"
+    }
+  ]
+}
